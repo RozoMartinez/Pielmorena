@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Ejemplodelciclo3Application {
 	@GetMapping("/Hello")
 	public String Hello (){
-		return "Hola tu priemer comentario";
+		return "Hola tu primer comentario";
 	}
 
 	public static void main(String[] args) {
